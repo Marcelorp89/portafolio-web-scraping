@@ -1,0 +1,149 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #f8fafc ;
+    background-color: #0c1017 ;
+}
+
+.navbar{
+    background-color: #1a1f2e;
+}
+
+.navbar .nav-link{
+    color: #f8fafc;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd343;
+}
+
+.navbar-brand img {
+    filter: brightness(0) invert(1);
+}
+
+h1, h2, h3, h5{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #ffd343;
+}
+/*Tablas paginas sobre mí*/
+
+table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+table td, table th {
+    vertical-align: middle;
+    padding: 0.75rem;
+}
+
+.table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+p.destacado {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #e2e8f0 ;
+}
+
+.parrafos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e2e8f0 ;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/*Estilos de botones pagina proyectos*/
+
+.console-screenshot{
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    margin-top: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.console-screenshot::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 10px;
+    height: 10px;
+    background-color: #ff5f56;
+    border-radius: 50%;
+    box-shadow: 16px 0 #ffbd2e, 32px 0 #27c93f;
+}
+
+.console-screenshot img {
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 500px;
+    margin: 0, auto;
+}
+
+
+/* arreglos en botones de contacto pagina sobre mí */
+
+#contacto .card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.link-book{
+    text-decoration: none;
+    color: #3776ab;
+}
+
+.boton-proyectos {
+    display: inline-block;
+    background-color: #3776ab;
+    color: #f8fafc;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.boton-proyectos:hover {
+    background-color: #2b5b84;
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+}
+
+
+
+
+/*En todos los footer*/
+footer {
+    text-align: center;
+    margin-top: 5rem;
+    background-color: #13171f;
+    color: #f8fafc;
+    padding: 1rem 0;
+    
+}
+
+
+
+
+
+
+

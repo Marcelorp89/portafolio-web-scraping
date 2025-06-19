@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.2rem;
+    position: relative;
+    margin: 32px;
+}
+
+/*boton uno */
+.btn-excel{ 
+    background: #008f39 ;
+    color: #ffff;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.btn-excel::after, .btn-excel::before{
+    background: #008f39 ;
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.btn-excel:hover{
+    transform: translate(-12px, -12px);
+
+}
+
+.btn-excel:hover::after{
+    transform: translate(6px, 6px);
+
+}
+
+.btn-excel:hover::before{
+    transform: translate(12px, 12px);
+
+}
+
+/*boton 2*/
+
+.btn-json{ 
+    background: #FFA500 ;
+    color: #ffff;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.btn-json::after, .btn-excel::before{
+    background: #FFA500 ;
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.btn-json:hover{
+    transform: translate(-12px, -12px);
+
+}
+
+.btn-json:hover::after{
+    transform: translate(6px, 6px);
+
+}
+
+.btn-json:hover::before{
+    transform: translate(12px, 12px);
+
+}
+
+/*Boton 3*/
+
+.btn-consola{ 
+    background: #374151;
+    color: #ffff;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.btn-consola::after, .btn-excel::before{
+    background: #374151 ;
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.btn-consola:hover{
+    transform: translate(-12px, -12px);
+
+}
+
+.btn-consola:hover::after{
+    transform: translate(6px, 6px);
+
+}
+
+.btn-consola:hover::before{
+    transform: translate(12px, 12px);
+
+}

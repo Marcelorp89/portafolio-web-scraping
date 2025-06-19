@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraping con Excel | Marcelo Rodríguez</title>
+    <meta name="keywords" content="scraping, python, excel, automatizacion">
+    <meta name="author" content="Marcelo Rodriguez">
+    <meta name="description" content="proyecto de automatizacion realizando scraping a una pagina web y guardando la data en un archivo excel">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Scraping Web en Consola | Portafolio de Marcelo Rodríguez">
+    <meta property="og:description" content="Proyecto profesional de scraping web con Python. Extracción automatizada de datos de libros desde un sitio web.">
+    <meta property="og:image" content="imagen-consola-1.png">
+    <meta property="og:type" content="website">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">      
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagenes/web-scraper_18408140.png" alt="icono webscraping" width="40" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" href="proyectos.html">Proyectos Scraping</a>
+                    <a class="nav-link" href="sobreMi.html">Sobre mí</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h1 class="text-center mt-4 mb-4 mb-5"><i class="bi bi-file-earmark-excel me-2"></i>Scraping con Excel</h1>
+        <section class="me-2">
+            <h3><i class="bi bi-tools me-2"></i>Descripción técnica</h3>
+            <p class="me-2">Este proyecto utiliza Python y bibliotecas como <code>Request</code> y <code>BeautifulSoup</code> para extraer información de una página web.</p>
+            <p>Los datos se estructuran con <code>Pandas</code> y se exportan a un archivo excel usando <code>openpyxl.</code></p>
+        </section>
+
+        <section class="mb-4">
+            <h3><i class="bi bi-search me-2"></i>¿Cómo funciona?</h3>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">
+                    Se realiza petición HTTP a la URL objetivo.
+                    <div class="console-screenshot mt-3">
+                        <img src="img/imagen-1.png" alt="Peticion http a la url" class="img-fluid mt-2 rounded shadow-sm">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    Se parsea el contendio HTML con BeautifulSoup.
+                    <div class="console-screenshot mt-3">
+                        <img src="img/imagen-1-1.png" alt="parsear html con BeautifulSoup" class="img-fluid mt-2 rounded shadow-sm">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    Se extraen los elementos deseados de la primera página (como títulos, precios o enlaces).
+                    <div class="console-screenshot mt-3">
+                        <img src="img/imagen2-2.png" alt="extracción de elementos de la primera página" class="img-fluid mt-2 rounded shadow-sm">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    Se crea un bucle while para ingresar a las otras páginas del sitio y extraer los elementos requeridos.
+                    <div class="console-screenshot mt-3">
+                        <img src="img/imagen4-1.png" alt="extracción de elementos páginas siguientes con buble while" class="img-fluid mt-2 rounded shadow-sm">
+                    </div>
+                    <div class="console-screenshot mt-3">
+                        <img src="img/imagen-5.png" alt="resultados bucle while" class="img-fluid mt-2 rounded shadow-sm">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    Los datos se ordenan en un Dataframe de pandas.
+                    <div class="console-screenshot mt-3">
+                        <img src="img/imagen-3.png" alt="creacion y orden con pandas" class="img-fluid mt-2 rounded shadow-sm">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    Finalmente, se exportan a un archivo Excel.
+                    <div class="mt-3">
+                        <img src="img/imagen-6.png" alt="exportación datos con excel" class="img-fluid mt-2 rounded shadow-sm">
+                    </div>
+                </li>
+            </ol>
+
+        </section>
+
+        <section>
+            <h3><i class="bi bi-link-45deg me-2 mb-4"></i>Repositorio</h3>
+            <a href="https://github.com/Marcelorp89/Scraping-excel" target="_blank" class="btn btn-info"><i class="bi bi-github m2- me-2"></i>Ver en GitHub</a>
+        </section>
+
+        <div class="text-center mt-5" > 
+            <a href="proyectos.html" class="boton-proyectos">
+                <i class="bi bi-arrow-left-circle me-2"></i>Volver a página de Proyectos
+            </a>
+        </div>
+        
+    </main>
+
+    <footer class="mt-auto text-center py-3">
+        <p>Desarrollado por Marcelo Rodríguez &copy; 2025</p>
+    </footer>
+
+</body>
+</html>

@@ -23,6 +23,6 @@ Tener instalado Python3 o superior
 2. Instala las depedendicas (si no las tienes)
 
 ## 📧 Contacto
-Marcelo Rodríguez - marcelorp.it@gmail.com
+Marcelo Rodríguez - marcelorp.it@gmail.com </br>
 Enlace al proyecto: https://github.com/Marcelorp89/portafolio-web-scraping
 

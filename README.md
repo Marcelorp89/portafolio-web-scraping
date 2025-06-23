@@ -1,5 +1,8 @@
 # Portafolio web scraping
-Este proyecto es un portafolio de tres proyectos de web scraping realizado en Python. <br/>
+Este respositorio contiene un portafolio de tres proyectos de web scraping desarrollados en Python, demostrando diferentes técnicas para la extracción automatizada de datos web.
+
+## Descripcíon :blush:
+
 
 ## Requisitos:
 

@@ -64,6 +64,6 @@ portafolio-webscraping/
 
 ## 📧 Contacto
 Marcelo Rodríguez - marcelorp.it@gmail.com </br>
-Enlace al proyecto: https://github.com/Marcelorp89/portafolio-web-scraping </br>
-Linkedin: https://www.linkedin.com/in/marcelorodriguezpalma/
+Enlace al proyecto - https://github.com/Marcelorp89/portafolio-web-scraping </br>
+Linkedin: https - //www.linkedin.com/in/marcelorodriguezpalma/
 

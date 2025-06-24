@@ -18,7 +18,7 @@ El portafolio incluye tres proyectos distintos que muestran:
 Tener instalado Python3 o superior
 
 ## 📁 Estructura del proyecto
-
+```
 portafolio-webscraping/
 ├── index.html                    # Página principal
 ├── proyectos.html               # Página de proyectos
@@ -33,28 +33,28 @@ portafolio-webscraping/
 ├── img/                         # Capturas de pantalla
 │   └── [screenshots funcionamiento de scripts]
 └── README.md                    # Documentación del proyecto
-
+```
 ## 📃Descripción de archivos
 
 ### 📑 Páginas HTML
-
+```
 `index.html` - Página de inicio del portafolio
 `proyectos.html` - Página de proyectos de web scraping
 `sobreMi.html` - Información personal y profesional
 `proyectos_excel.html` - Proyecto de scraping con exportación a Excel
 `proyectos_json,html` - Proyecto de scraping con salida en json
 `proyectos_consola.html` - Proyectos de scraping que imprime la información en consola
-
+```
 ### 🎨 Archivos de estilos
-
+```
 `estilos.css` - Estilos generales del sitio web
 `botones.css` - Estilos para elementos interactivos
-
+```
 ### 🖼️ Recursos multimedia
-
+```
 `imagenes/` - Fotos e imágenes del portafolio
 `img/` - Captura de pantalla de funcionamiento de los scripts
-
+```
 ## :rocket: Como usarlo
 
 1. Clona el repositorio.

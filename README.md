@@ -38,12 +38,12 @@ portafolio-webscraping/
 
 ### 📑 Páginas HTML
 ```
-`index.html` - Página de inicio del portafolio
-`proyectos.html` - Página de proyectos de web scraping
-`sobreMi.html` - Información personal y profesional
-`proyectos_excel.html` - Proyecto de scraping con exportación a Excel
-`proyectos_json,html` - Proyecto de scraping con salida en json
-`proyectos_consola.html` - Proyectos de scraping que imprime la información en consola
+**`index.html`** - Página de inicio del portafolio
+**`proyectos.html`** - Página de proyectos de web scraping
+**`sobreMi.html`** - Información personal y profesional
+**`proyectos_excel.html`** - Proyecto de scraping con exportación a Excel
+**`proyectos_json,html`** - Proyecto de scraping con salida en json
+**`proyectos_consola.html`** - Proyectos de scraping que imprime la información en consola
 ```
 ### 🎨 Archivos de estilos
 ```

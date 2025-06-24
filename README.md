@@ -8,11 +8,12 @@ El portafolio incluye tres proyectos distintos que muestran:
 - Procesamiento y almacenamiento de los datos extraidos.
 
 ## :wrench: Tecnologías utilizadas
+```
 - **Python 3.7+**
 - **`request`** - Para realizar peticiones HTTP
 - **`BeautifulSoup`** - Para el análisis y extracción de datos HTML
 - **`pandas`** - Para el manejo de datos estructurados
-  
+```
 ## :page_facing_up: Requisitos previos
 
 Tener instalado Python3 o superior
